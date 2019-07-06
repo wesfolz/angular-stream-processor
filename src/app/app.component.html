@@ -1,11 +1,16 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
-<div class="container">
-    <div class="">
-        <ngx-button class="btn" (click)="toggleStream()">{{btnText}}</ngx-button>
-        <app-filter></app-filter>
+<main class="container">
+    <h1>Twitter Stream Processor</h1>
+    <div class="container-row">
+        <div class="">
+            <ngx-button class="btn" (click)="toggleStream()">{{btnText}}</ngx-button>
+            <app-filter></app-filter>
+        </div>
+        <app-tweet-rate></app-tweet-rate>
+        <app-user-pie-chart></app-user-pie-chart>
     </div>
-    <app-tweet-rate></app-tweet-rate>
-    <app-user-pie-chart></app-user-pie-chart>
-</div>
-<app-country-bar-chart></app-country-bar-chart>
+    <div class="container-row">
+        <app-country-bar-chart></app-country-bar-chart>
+    </div>
+</main>
