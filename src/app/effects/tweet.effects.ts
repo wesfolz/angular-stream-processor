@@ -13,7 +13,6 @@ export class TweetEffects {
     ofType(StreamActions.subscribeToStream),
     mergeMap(() => this.twitterStreamService.subscribeToStream()
       .pipe(
-        // map(started => ({ type: '[Movies API] Movies Loaded Success', payload: started })),
         map(subscribed => ({type: '[Stream] subscribed', subscribed})),
         catchError(() => EMPTY)
       ))
@@ -24,7 +23,6 @@ export class TweetEffects {
     ofType(StreamActions.unsubscribeFromStream),
     mergeMap(() => this.twitterStreamService.unsubscribeFromStream()
       .pipe(
-        // map(started => ({ type: '[Movies API] Movies Loaded Success', payload: started })),
         map(unsubscribed => ({type: '[Stream] unsubscribed', unsubscribed})),
         catchError(() => EMPTY)
       ))
