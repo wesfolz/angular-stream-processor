@@ -2,8 +2,8 @@ import { Injectable } from '@angular/core';
 import { Store, select } from '@ngrx/store';
 import { PubNubAngular } from 'pubnub-angular2';
 import { Observable } from 'rxjs';
-import { AppState, TweetFilter } from './state/stream.state';
-import { newTweet } from './actions/stream.actions';
+import { AppState, TweetFilter } from './state/tweet.state';
+import { newTweet } from './actions/tweet.actions';
 import { selectFilter } from './selectors/tweet.selector';
 
 

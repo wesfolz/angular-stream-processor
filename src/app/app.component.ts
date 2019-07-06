@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { AppState } from './state/stream.state';
+import { AppState } from './state/tweet.state';
 import { Store } from '@ngrx/store';
-import { subscribeToStream, unsubscribeFromStream } from './actions/stream.actions';
+import { subscribeToStream, unsubscribeFromStream } from './actions/tweet.actions';
 
 
 @Component({

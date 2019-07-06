@@ -1,5 +1,5 @@
 import { createAction, props } from '@ngrx/store';
-import { TweetFilter } from '../state/stream.state';
+import { TweetFilter } from '../state/tweet.state';
 
 export const subscribeToStream = createAction('[Stream] subscribeToStream');
 export const subscribed = createAction('[Stream] subscribed', props<{ subscribed: boolean; }>());

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
-import { CountryDistribution, AppState } from '../state/stream.state';
+import { CountryDistribution, AppState } from '../state/tweet.state';
 import { Store, select } from '@ngrx/store';
 import * as fromTweetSelector from '../selectors/tweet.selector';
 

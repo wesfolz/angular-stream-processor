@@ -4,8 +4,8 @@ import {
   on
 } from '@ngrx/store';
 
-import { TweetsState, initialState, AppState, CountryDistribution } from '../state/stream.state';
-import * as StreamActions from '../actions/stream.actions';
+import { TweetsState, initialState, AppState, CountryDistribution } from '../state/tweet.state';
+import * as StreamActions from '../actions/tweet.actions';
 
 const addCountry = (countryDistribution, country) => {
   if (country == null) {

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Store, select } from '@ngrx/store';
-import { AppState } from '../state/stream.state';
+import { AppState } from '../state/tweet.state';
 import * as fromTweetSelector from '../selectors/tweet.selector';
 
 @Component({

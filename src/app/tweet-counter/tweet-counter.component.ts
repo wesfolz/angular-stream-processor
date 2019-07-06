@@ -3,7 +3,7 @@ import { Store, select } from '@ngrx/store';
 import { Observable } from 'rxjs';
 import { NgxUIModule } from '@swimlane/ngx-ui';
 
-import { AppState } from '../state/stream.state';
+import { AppState } from '../state/tweet.state';
 import * as fromTweetSelector from '../selectors/tweet.selector';
 
 @Component({

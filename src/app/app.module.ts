@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { StoreModule } from '@ngrx/store';
 import { reducers } from './reducers';
 import { EffectsModule } from '@ngrx/effects';
-import { TweetEffects } from './effects/stream.effects';
+import { TweetEffects } from './effects/tweet.effects';
 import { TweetCounterComponent } from './tweet-counter/tweet-counter.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxUIModule } from '@swimlane/ngx-ui';

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { AppState } from '../state/stream.state';
+import { AppState } from '../state/tweet.state';
 import { Store } from '@ngrx/store';
-import { setFilter } from '../actions/stream.actions';
+import { setFilter } from '../actions/tweet.actions';
 
 @Component({
   selector: 'app-filter',

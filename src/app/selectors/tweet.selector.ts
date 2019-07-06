@@ -1,6 +1,6 @@
 import { createSelector } from '@ngrx/store';
 
-import { AppState, TweetsState } from '../state/stream.state';
+import { AppState, TweetsState } from '../state/tweet.state';
 
 export const selectStream = (state: AppState) => state.tweets;
 

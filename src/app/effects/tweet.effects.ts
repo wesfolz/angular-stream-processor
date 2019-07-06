@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Actions, Effect, ofType, createEffect } from '@ngrx/effects';
 import { EMPTY } from 'rxjs';
 import { map, mergeMap, catchError } from 'rxjs/operators';
-import * as StreamActions from '../actions/stream.actions';
+import * as StreamActions from '../actions/tweet.actions';
 import { TwitterStreamService } from '../twitter-stream.service';
 
 
