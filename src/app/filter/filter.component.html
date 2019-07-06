@@ -1,0 +1,3 @@
+<ngx-select [filterable]="false" [label]="'Tweet Filter'" (change)="selectFilter($event)">
+    <ngx-select-option *ngFor="let filter of filterOptions; let i = index" [value]="i" [name]="filter"></ngx-select-option>
+</ngx-select>

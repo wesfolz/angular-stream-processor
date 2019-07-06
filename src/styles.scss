@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #1b1e27;
+    color: #A0AABE;
+    fill: #A0AABE;
+}
+
+.chart-legend .legend-label .active .legend-label-text, .legend-item:hover {
+    color: white !important;
+}
+
+.ngx-select .ngx-select-input .ngx-select-input-box {
+    outline: none;
+}
+
+.ngx-select .ngx-select-dropdown .ngx-select-dropdown-options, .ngx-select .ngx-select-input .ngx-select-input-list {
+    padding: 0;
+    margin: 0;
+}
