@@ -27,7 +27,7 @@
     "ajv": "^6.10.0",
     "codemirror": "^5.48.0",
     "core-js": "^3.1.4",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "moment-timezone": "^0.5.25",
     "ngx-moment": "^3.4.0",
     "pubnub": "^4.24.3",
